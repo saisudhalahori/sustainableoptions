@@ -1,0 +1,134 @@
+.team{
+    margin-left: 75px;
+    margin-top: 80px;
+
+.heading1{
+    font-size: 30px;
+    color: #84b41b;
+    margin-bottom: 40px;
+  
+
+
+
+    #main_span{
+        font-size: 30px;
+        color: rgb(32, 24, 24)
+    }
+    
+}
+.heading2{
+    color: rgb(32, 24, 24); 
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    span{
+     color: #84b41b;;
+     font-size: 16px;
+}
+}
+p{
+    margin-bottom: 25px;
+    color: rgb(71, 65, 65);
+    font-weight: 400;
+    font-size: 15px;
+   text-align: justify;
+   margin-right: 40px;
+}
+
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .team {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .heading1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+
+        #main_span {
+            font-size: 24px;
+        }
+    }
+
+    .heading2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size: 14px;
+         margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .team {
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+
+    .heading1 {
+        font-size: 36px;
+        margin-bottom: 50px;
+
+        #main_span {
+            font-size: 36px;
+        }
+    }
+
+    .heading2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+
+        span {
+            font-size: 18px;
+        }
+    }
+
+    p {
+        margin-bottom: 30px;
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .team {
+        margin-left: 50px;
+        margin-top: 60px;
+    }
+
+    .heading1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+
+        #main_span {
+            font-size: 24px;
+        }
+    }
+
+    .heading2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+
+        span {
+            font-size: 14px;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+}

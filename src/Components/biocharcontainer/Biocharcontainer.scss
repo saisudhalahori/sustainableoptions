@@ -1,0 +1,142 @@
+.biochar_container {
+  margin-left: 60px;
+
+  .biochar_div1 {
+    margin-top: 80px;
+    text-align: justify;
+    display: inline;
+
+    .parent {
+      display: flex;
+
+      .bio_subdiv1 {
+        width: 80%;
+        margin-top: 50px;
+
+        .bio_heading {
+          font-size: 28px;
+
+          span {
+            color: #84b41b;
+          }
+
+          p {
+            display: inline;
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+
+  button.newbtn {
+    background: rgba(14, 90, 230, 0.842);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .bio_subdiv2 {
+    width: 50%;
+
+    .bio_container_img {
+      width: 350px;
+      margin-left: 80px;
+      margin-top: 80px;
+      border-radius: 4px;
+    }
+  }
+
+  .biochar_div2 {
+    display: flex;
+    text-align: justify;
+  }
+
+  .biochar_div3 {
+    display: flex;
+    text-align: justify;
+  }
+
+  p.bio_para {
+    color: rgb(117, 107, 107);
+    font-size: 16px;
+    text-transform: lowercase;
+  }
+
+  #product {
+    font-size: 14px;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 1024px) {
+   
+
+    .biochar_div1 {
+
+      .parent{
+      flex-direction: column; /* Change flex direction to stack elements vertically */
+      align-items: center; /* Center-align child elements */
+      margin-top: 40px;
+      }
+       /* Adjust top margin for smaller screens */
+    
+
+    .bio_subdiv1 {
+      width: 90%; /* Adjust width of text content */
+      text-align: center; /* Center-align text content */
+      margin-top: 20px; /* Adjust top margin for smaller screens */
+    
+    }
+   
+    .bio_subdiv2 {
+      width: 100%; /* Adjust width of image container */
+      text-align: center; /* Center-align image */
+      margin-top: 20px; /* Adjust top margin for smaller screens */
+     justify-content: center;
+     align-items: center;
+
+      .bio_container_img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    }
+  }
+   
+
+    p.bio_para {
+      text-align: justify;
+      font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    .bio_heading span {
+      font-size: 22px; /* Reduce font size for smaller screens */
+    }
+
+    // .biochar_container .bio_subdiv1 .bio_heading p {
+    //   display: inline;
+     
+    //   font-size: 1.4rem;
+    // }
+
+    button.newbtn {
+      margin-top: 20px; /* Adjust top margin for smaller screens */
+    }
+
+      .biochar_container button.newbtn {
+        margin-top: 300px;
+      }
+     
+      .biochar_container .bio_subdiv2 img.bio_container_img {
+        width: 350px;
+        margin-left: -90px;
+        margin-top: 20px;
+        border-radius: 4px;
+      }
+    }
+ }

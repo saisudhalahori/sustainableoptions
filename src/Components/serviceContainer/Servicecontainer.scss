@@ -1,0 +1,102 @@
+.services_container{
+    margin-left: 60px;
+  
+
+    .service_heading1{
+        color: rgb(51, 41, 41);
+        cursor: pointer;
+        margin-top: 80px;
+       margin-bottom: -50px;
+        span{
+            color: #84b41b;
+        }
+    
+    }
+
+   h2.service_heading2{
+        color: rgb(49, 47, 47);
+        font-size: 22px;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+
+    p.service_para{
+        color: rgb(78, 70, 70);
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .service_flex_container{
+        display: flex;
+        margin-top: 60px;
+    }
+
+    
+
+    .service_flex_container1{
+        width: 50%;
+    }
+
+    .service_flex_container2{
+       width: 1000px;
+       height: auto;
+    text-align: center;
+  
+    }
+
+    .service_flex_container2,.service_img{
+        border-radius: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1024px){
+    .services_container {
+         margin-left: 30px; /* Adjust margin for smaller screens */
+      
+        .service_heading1 {
+          margin-top: 40px; /* Adjust margin-top for smaller screens */
+          margin-bottom: -20px; /* Adjust margin-bottom for smaller screens */
+        align-items: flex-start;
+       font-size: 22px;
+      
+        }
+      
+        h2.service_heading2 {
+          font-size: 18px; /* Adjust font size for smaller screens */
+          margin-top: 20px; /* Adjust margin-top for smaller screens */
+          margin-left: -25px;
+          align-items: flex-start;
+          text-align: left;
+          padding-left: 22px;
+        
+        }
+      
+        p.service_para {
+          font-size: 14px; /* Adjust font size for smaller screens */
+          margin-top: 10px; /* Adjust margin-top for smaller screens */
+          text-align: justify;
+          padding-right: 20px;
+        
+        }
+      
+        .service_flex_container {
+          flex-direction: column; /* Change flex direction to column for smaller screens */
+          margin-top: 30px; /* Adjust margin-top for smaller screens */
+        }
+      
+        .service_flex_container1, .service_flex_container2 {
+          width: 100%; /* Set width to 100% for smaller screens */
+          text-align: center; /* Center align text for smaller screens */
+        }
+      
+       .service_img {
+          width: 90%; /* Adjust image width for smaller screens */
+          margin-top: 0px; /* Adjust margin-top for smaller screens */
+     
+          position: relative;
+          left: -10px;
+        }
+      }
+      
+}

@@ -1,0 +1,146 @@
+.contactus_container {
+    background-image: url(../../../contactus3.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .contactus_container2,
+    h1,
+    .contactus_heading {
+        color: #fff;
+        font-size: 50px;
+        margin-left: 60px;
+      position: relative;
+      top: 4rem;
+        
+      
+    }
+}
+
+.email_google_flex {
+    display: flex;
+    padding-top: 2rem;
+
+    .email_form {
+        width: 50%;
+        justify-content: flex-start;
+        text-align: center;
+
+        h1,
+        .email_form_heading {
+            color: #84b41b;
+          
+            font-size: 2rem;
+           
+            
+        }
+
+        p,
+        .contactus_para {
+            color: rgb(66, 55, 55);
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        &,
+        .contact_us_main_form {
+            margin-left: 120px;
+        }
+    }
+
+    .google_map {
+        width: 50%;
+       align-items: center;
+       justify-content: center;
+
+        iframe {
+            width: 600px;
+            height: 400px;
+            border: none;
+            margin-right: 80px;
+            margin-top: 30px;
+        }
+
+        h1,
+        .google_heading {
+            color:#84b41b;
+     
+         text-align: center;
+         
+            font-size: 2rem;
+
+            
+        }
+    }
+
+    i,
+    .fa-solid {
+        width: 40px;
+        background-color: rgb(26, 133, 221);
+        height: 40px;
+        border-radius: 50%;
+        padding-left: 11px;
+        padding-top: 11px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .fa-solid,
+    a {
+        text-decoration: none;
+        color: rgb(48, 44, 44);
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    
+}
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .contactus_container {
+        height: 300px; // Adjust height for smaller screens
+    }
+
+    .email_google_flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; // Center align items on the main axis
+        align-items: center; // Center align items on the cross axis
+
+        .email_form {
+            width: 80%; // Adjust width of email form for smaller screens
+            margin-left: 0; // Remove left margin for smaller screens
+        }
+        h1,
+        .email_form_heading{
+          
+            font-size: 1rem;
+        }
+
+        .google_map {
+            width: 80%; // Adjust width of Google map container for smaller screens
+            margin-top: 50px; // Adjust top margin for Google map container
+
+            iframe {
+                width: 100%; // Set width of iframe to 100% to fit device width
+                height: 400px; // Set a fixed height for the map (adjust as needed)
+            }
+          
+
+            .our_location_icon {
+                justify-content: flex-start;
+              
+
+          ul li{
+          
+               position: absolute;
+             
+               a{
+                position: relative;
+               }
+          }
+            }
+
+        }
+    }
+}

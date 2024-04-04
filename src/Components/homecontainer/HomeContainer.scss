@@ -1,0 +1,58 @@
+.homeContainer{
+    background-image: url(../../../image10.jpg);
+    width: 100%;
+ background-position-x: hide;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    padding-left: 60px;
+    padding-top: 80px;
+  
+
+
+.home_heading{
+    color: #fff;
+   
+} 
+
+.home_page{
+     color: #ceb3b3;
+     margin-top: 20px;
+     text-align: justify;
+
+} 
+button.btnbtn{
+  
+    background-color:rgba(14, 90, 230, 0.842);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+}
+@media only screen and (min-width: 0px) and (max-width: 1024px){
+    .homeContainer{
+        background-image: url(../../../image10.jpg);
+        width: 100%;
+     background-position-x: hide;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        padding-left: 60px;
+        padding-top: 80px;
+  text-align: justify;
+    
+}
+.home_page{
+    color: #ceb3b3;
+    margin-top: 20px;
+    text-align: justify;
+
+} 
+}

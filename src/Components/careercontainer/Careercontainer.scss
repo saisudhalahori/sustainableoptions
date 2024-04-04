@@ -1,0 +1,84 @@
+.careercontainer{
+    background-image: url("https://quintecareerfair.ca/wp-content/uploads/2021/01/AdobeStock_382773052-QRCF-job-seekers.jpg");
+    background-position:center ;
+    background-repeat: no-repeat;
+  height: 600px;
+    background-size: cover;
+
+h1{
+    margin-left: 90px;
+    padding-top: 150px;
+ 
+    color:#fff ;
+    font-size: 50px;
+    font-weight: 700px;
+ 
+}
+}
+
+.internship_enquiry_img_form{
+  background-image: url("https://i.pinimg.com/736x/65/98/d6/6598d69f8d1ed76c768c2828f2239f0d.jpg");
+  background-position:center;
+  background-size: cover;
+height: 700px;
+  background-repeat: no-repeat;
+
+ .internship_form{
+  text-align: center;
+padding-top: 70px;
+    
+ }
+ h1{
+  color:#fff;
+  font-size: 35px;
+ font-family:sans-serif;
+ }
+}
+@media screen and (max-width: 768px) {
+  .careercontainer {
+      h1 {
+          margin-left: 20px;
+          padding-top: 50px;
+          font-size: 25px;
+      }
+  }
+
+  .internship_enquiry_img_form {
+      h1 {
+          font-size: 20px; /* Adjusted for smaller screens */
+      }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .careercontainer {
+      h1 {
+          margin-left: 90px;
+          padding-top: 150px;
+          font-size: 50px;
+      }
+  }
+
+  .internship_enquiry_img_form {
+      h1 {
+          font-size: 35px;
+      }
+  }
+}
+
+/* Media Query for screens with a minimum width of 600px */
+@media screen and (min-width: 600px) {
+  .careercontainer {
+      h1 {
+          margin-left: 90px;
+          padding-top: 150px;
+          font-size: 50px;
+      }
+  }
+
+  .internship_enquiry_img_form {
+      h1 {
+          font-size: 35px;
+      }
+  }
+}

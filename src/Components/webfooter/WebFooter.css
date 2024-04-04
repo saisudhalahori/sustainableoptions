@@ -1,0 +1,164 @@
+
+.footer-container2{
+    display: flex;
+    background:   rgba(14, 90, 230, 0.842);
+  
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.footerpart-1 h3{
+    width: 30%;
+    margin-top: 90px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footerpart-2 {
+    width: 35%;
+}
+
+.footerpart-2 p{
+   margin-top: 90px;
+   font-size: 17px;
+   color: white;
+}
+.footerpart-3{
+    width: 35%;
+}
+.footerpart-3 p{
+    margin-top: 90px;
+    font-size: 17px;
+    color: white;
+}
+
+
+.basic-details{
+    width: 31%;
+   
+}
+
+.quick-link{
+    width: 23%;
+ 
+}
+.quick-link h3{
+   padding-bottom: 15px;
+   
+}
+
+
+.resources{
+    width: 23%;
+   
+    
+}
+.resources h3{
+   padding-bottom: 15px;
+}
+.contact-info{
+    width: 23%;
+}
+
+
+.basic-details img{
+   width: 130px; 
+   position: relative;
+   left: 60px;
+   
+ 
+}
+.quick-link,ul,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.socialmedia-icons li{
+    margin-left: 25px;
+}
+
+#icons{
+    display: flex;
+
+   
+}
+#icons li{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: rgba(35, 58, 133, 0.685);
+    border-radius: 50%;
+    
+    color:white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  justify-content: center;
+
+}
+.copyright-container{
+    padding-top: 100px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+ul li.rights_container{
+    width: 200%;
+   position: relative;
+   bottom: 80px;
+  left: 400px;
+  background-color: blueviolet;
+    
+}
+.link_class{
+display: flex;
+justify-content: space-around;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+
+     .footer-container2{
+        display:inline-block;
+       
+
+     }
+    .basic-details{
+  
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+}
+.basic-details img{
+   width: 80px;
+  position: relative;
+  top: 0px;
+  left: auto;
+  right: auto;
+
+}
+.basic-details,.socialmedia-icons ul{
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#icons{
+  cursor: pointer;
+}
+.link_class{
+    display: flex;
+    justify-content: space-evenly;
+   margin-top: 20px;
+}
+
+.contact-info ul li{ 
+
+ align-items: flex-start;
+ text-align: justify;
+ justify-content: center;
+}
+}

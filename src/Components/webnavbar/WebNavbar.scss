@@ -1,0 +1,162 @@
+nav {
+  display: flex;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #fff;
+ 
+
+  .name {
+    align-items: center;
+    width: 100px;
+    font-size: 40px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+
+    li {
+      list-style: none;
+      padding: 0 2rem;
+      position: relative;
+      
+
+
+      a {
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #84b41b;
+        transition: 0.3s ease-in-out;
+
+        &:hover,
+        &.active {
+          color: #84b41b;
+        }
+
+        &:hover::after,
+        &.active::after {
+          content: "";
+          width: 30%;
+          height: 1.5px;
+          background-color: #84b41b;
+          position: absolute;
+          bottom: -2px;
+          left: 33px;
+        }
+
+      }
+       .dropdown_hide{
+        display: none;
+       }
+      
+      .dropdown_link{
+        height: 8rem;
+        width:9.2rem;
+        color: #84b41b;
+        background-color: whitesmoke;
+        position:absolute;
+        top: 3rem;
+       left: 0rem;
+        z-index: 1;
+
+        li{
+          font-size: 1.3rem;
+          font-weight: 600;
+          padding: 1rem;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          &:hover{
+               cursor: pointer;
+               background-color: white;
+          }
+        }
+
+      }
+    }
+  }
+
+  .mobile {
+    display: none;
+
+    i {
+      color: white;
+      margin-right:0;
+    }
+  }
+
+
+  @media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 2rem 3.5rem;
+      position: fixed;
+      right: -112rem; /* Adjusted to -10rem */
+      width: 13rem;
+      top: 5rem;
+      height: 70vh;
+      background-color: rgb(6, 35, 54);
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 40px 0 0 10px;
+      transition: right 0.5s ease-in-out; /* Changed transition to only right property */
+      z-index: 1; /* Increased z-index to ensure it overlays other content */
+      overflow-y: auto;
+  
+      li {
+        margin-bottom: 25px;
+  
+        a {
+          font-size: 1.3rem;
+          font-weight: 500;
+          color: #fff;
+          transition: 0.3s ease-in-out;
+  
+          &:hover,
+          &.active {
+            color: #84b41b;
+          }
+  
+          &:hover::after,
+          &.active::after {
+            content: "";
+            width: 30%;
+            height: 1.5px;
+        
+            background-color: #84b41b;
+            position: absolute;
+            bottom: -2px;
+            left: 33px;
+          }
+        }
+      }
+    }
+  
+    .navbar.active {
+      left: 0px; /* Changed from right: 0rem; */
+      z-index: 1000; /* Ensure it stays on top when active */
+      
+    }
+  
+    .name {
+      font-size: 1.8rem;
+    }
+  
+    .mobile {
+      display: block;
+  
+      i {
+        font-size: 24px;
+        cursor: pointer;
+        margin-right: 1rem;
+      }
+    }
+  }
+}
